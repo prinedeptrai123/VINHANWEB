@@ -7,6 +7,14 @@ app.get('/',(req,res)=>{
     res.end('helo qui');
 })
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT || 3000,()=>{
+ console.log("qui");
+ console.log("qui");
+ console.log("qui");
+ console.log("qui");
+ console.log("qui");
+
+ console.log("qui");
+ console.log("qui");
  console.log("qui");
 });

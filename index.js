@@ -4,7 +4,7 @@ var app =express();
 
 
 app.get('/',(req,res)=>{
-    res.end('helo qui');
+    res.end('index.html');
 })
 
 app.listen(process.env.PORT || 3000,()=>{

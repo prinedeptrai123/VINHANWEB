@@ -22,3 +22,19 @@
     margin: 0;
   padding: 0;
 }
+
+.position-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0.25rem;
+  margin-top: 0.1rem;
+}
+
+.modal.and.carousel {
+  position: fixed; 
+}
+
+.color-black{
+  color: black
+}

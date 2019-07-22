@@ -1,7 +1,12 @@
-$('#luan').on( "click", function() {
+$('.full-image').on( "click", function() {
     
-    var img = $(this).attr('src');
+    var id = $(this).attr('id');
 
-    $('#modal_img').attr('src',img);
+    displayImage(id);
     $('#modal_luan').modal('show')
 });
+
+//set 
+function displayImage(id){
+    
+}

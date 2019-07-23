@@ -190,3 +190,8 @@
 #portfolio-2 .portfolio-item:hover img {
   top: -15px;
 }
+
+.logo-size{
+  height: 32px;
+  width: auto;
+}

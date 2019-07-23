@@ -1,6 +1,13 @@
 
 
 $(document).ready(function () {
+
+    $(document).on("click",".img-activity",function() {
+        var src = $(this).attr('src');
+        $("#img-large").attr('src',src);
+        $('#modal_img_activity').modal('show')
+    });
+
     createImage();
 });
 
@@ -12,6 +19,8 @@ $('.full-image').on("click", function () {
     $('#modal_luan').modal('show')
 });
 
+
+
 //set 
 function displayImage(id) {
     $(`li`).removeClass("active");
@@ -22,14 +31,12 @@ function displayImage(id) {
 
 }
 
-
-
 //add function
 function createImage() {
     for (var i = 0; i < 15; i++) {
         var img = `<div class="col-lg-3 col-md-6 portfolio-item filter-xay-cau">
                         <div>
-                            <img id="0" class="full-image" src="/img/activity/${i}.jpg" alt="">
+                            <img id="0" class="full-image img-activity" src="/img/activity/${i}.jpg" alt="">
                             <div class="details">
                                 <span>19/07/2019</span>
                             </div>

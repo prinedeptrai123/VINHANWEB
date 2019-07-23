@@ -759,6 +759,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1);
 }
 
+.fix-height{
+  height: 16rem !important;
+}
+
 #portfolio .portfolio-item a {
   display: block;
   margin-right: 15px;
@@ -802,6 +806,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item:hover img {
   top: -30px;
 }
+
 
 /* Team Section
 --------------------------------*/

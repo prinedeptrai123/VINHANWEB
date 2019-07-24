@@ -54,6 +54,6 @@ function createImage() {
 
 //Tạo url 
 function createURL(id){
-    return `/img/activity/${id}.jpg`;
+    return `/img/activity/${id}.JPG`;
    // return `https://firebasestorage.googleapis.com/v0/b/oderfood-cf526.appspot.com/o/activityimage%2Fxaycau%2F${id}.JPG?alt=media&token=240c764f-65c4-48cb-97c3-ae45a2b8e23f`;
 }

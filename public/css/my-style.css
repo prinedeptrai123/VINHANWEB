@@ -40,7 +40,8 @@
 }
 
 #infographic {
-  background: #fff;
+  /* background: #fff; */
+  background: #f7f7f7;
   padding: 80px 0;
 }
 
@@ -98,8 +99,8 @@
 }
 
 #portfolio-2 {
-  /* background: #fff; */
-  background: #f7f7f7;
+  background: #fff;
+  /* background: #f7f7f7; */
   padding: 50px 0;
 }
 

@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     createImage();
 
-    $('#action-xc').click();
+    $('#action-xc').click(); 
 
 });
 

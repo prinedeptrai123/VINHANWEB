@@ -751,6 +751,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+.li-filter{
+  background: #2dc997 !important;
+  color: #fff !important;
+}
+
 #portfolio .portfolio-item {
   position: relative;
   height: 20rem;

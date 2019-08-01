@@ -26,6 +26,14 @@ $('.full-image').on("click", function () {
 });
 
 
+$('.button-filter').on("click", function () {
+    //remove class
+    $('.button-filter').removeClass("li-filter");
+
+    //change color
+    $(this).addClass("li-filter");
+});
+
 
 //set 
 function displayImage(id) {

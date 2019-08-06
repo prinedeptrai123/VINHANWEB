@@ -1,29 +1,29 @@
-.circle-image{
-    /* border-radius: 50%;
+.circle-image {
+  /* border-radius: 50%;
     max-width: 100%;
     height: 100%;
     width: 100%; */
-    width: 15rem;
-    height: 15rem;
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
-    background: #4679BD;
+  width: 15rem;
+  height: 15rem;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #4679bd;
 }
 
-.full-image{
-    /* border-radius: 50%;
+.full-image {
+  /* border-radius: 50%;
     max-width: 100%;
     height: 100%;
     width: 100%; */
-    width: 100%;
-    height: auto;
-    background: #4679BD;
-    margin: 0;
+  width: 100%;
+  height: auto;
+  background: #4679bd;
+  margin: 0;
   padding: 0;
 }
 
-.position-right{
+.position-right {
   position: absolute;
   top: 0;
   right: 0;
@@ -32,11 +32,11 @@
 }
 
 .modal.and.carousel {
-  position: fixed; 
+  position: fixed;
 }
 
-.color-black{
-  color: black
+.color-black {
+  color: black;
 }
 
 #infographic {
@@ -130,7 +130,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio-2 #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#portfolio-2 #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
   background: #2dc997;
   color: #fff;
 }
@@ -144,7 +145,7 @@
   transform: scale(1);
 }
 
-.fix-height{
+.fix-height {
   height: 16rem !important;
 }
 
@@ -192,22 +193,52 @@
   top: -15px;
 }
 
-.logo-size{
+.logo-size {
   height: 32px;
   width: auto;
 }
 
-
 /* style team*/
-#magazine{
-	width:100%;
-	height: 43rem;
+#magazine {
+  width: 100%;
+  height: 43rem;
 }
-#magazine .turn-page{
-	background-color:#ccc;
-	
+#magazine .turn-page {
+  background-color: #ccc;
 }
 
-#magazine img{
-	width: 100%;
-} 
+#magazine img {
+  width: 100%;
+}
+
+.home_blog_area .col-lg-3 {
+  vertical-align: middle;
+  align-self: center;
+}
+
+.home_blog_area .h_blog_img img {
+  width: 100%;
+}
+
+.h_blog_text {
+  padding: 0px 65px;
+}
+.h_blog_text .cat {
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(3, 3, 3);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.h_blog_text h4 {
+  text-transform: uppercase;
+  color: rgb(3, 3, 3);
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.h_blog_text p {
+  margin-bottom: 0px;
+}

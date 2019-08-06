@@ -1,5 +1,6 @@
 $(window).ready(function() {
     $('#magazine').turn({
+                        pages:6,
                         display: 'single',
                         acceleration: true,
                         gradients: !$.isTouch,
@@ -18,6 +19,10 @@ $(document).on("click",".pre-page",function() {
 
 $(document).on("click",".next-page",function() {
     $('#magazine').turn('next');
+});
+
+$(document).on("click",".page-number",function() {
+    $('#magazine').turn('page',$(this).attr('id'));
 });
 
 $(window).bind('keydown', function(e){

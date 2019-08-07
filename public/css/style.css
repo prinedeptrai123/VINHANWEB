@@ -623,6 +623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contract .contranct-container .icon-box:hover >p{
   color: #2dc997;
+  cursor: pointer;
 }
 
 .icon-page{

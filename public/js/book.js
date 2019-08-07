@@ -28,7 +28,7 @@ $(document).on("click",".page-number",function() {
 $(window).bind('keydown', function(e){
     
     if (e.keyCode==37)
-        $('#magazine').turn('previous');
+       $('#magazine').turn('previous');
     else if (e.keyCode==39)
         $('#magazine').turn('next');
         

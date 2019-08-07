@@ -91,20 +91,36 @@ function createImage() {
                     </div>`;
         $(".team-activity").append(img);
     }
+
+    for (var i = 1; i < 15; i++) {
+
+        var url = createPTURL(i);
+
+        var img = `<div class="col-lg-3 col-md-6 portfolio-item filter-poster">
+                        <div>
+                            <img id="0" class="full-image img-activity" src="${url}" alt="">
+                            <div class="details">
+                                <span>03/08/2019</span>
+                            </div>
+                        </div>
+                    </div>`;
+        $(".team-activity").append(img);
+    }
 }
 
 //Tạo url 
 function createXCURL(id){
     return `/img/activity/xaycau/${id}.JPG`;
-   // return `https://firebasestorage.googleapis.com/v0/b/oderfood-cf526.appspot.com/o/activityimage%2Fxaycau%2F${id}.JPG?alt=media&token=240c764f-65c4-48cb-97c3-ae45a2b8e23f`;
 }
 
 function createTTURL(id){
     return `/img/activity/truyentin/tt-${id}.jpg`;
-   // return `https://firebasestorage.googleapis.com/v0/b/oderfood-cf526.appspot.com/o/activityimage%2Fxaycau%2F${id}.JPG?alt=media&token=240c764f-65c4-48cb-97c3-ae45a2b8e23f`;
 }
 
 function createQPURL(id){
     return `/img/activity/quayphim/qp-${id}.JPG`;
-   // return `https://firebasestorage.googleapis.com/v0/b/oderfood-cf526.appspot.com/o/activityimage%2Fxaycau%2F${id}.JPG?alt=media&token=240c764f-65c4-48cb-97c3-ae45a2b8e23f`;
+}
+
+function createPTURL(id){
+    return `/img/activity/poster/${id}.jpg`;
 }
